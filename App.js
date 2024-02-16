@@ -1,18 +1,15 @@
-import ButtonTest from './component/ButtonTest';
 import styled from 'styled-components';
-import { View, Text } from 'react-native';
+import BasicComponents from './src/components/BasicComponents';
 
 export default function App() {
   return (
-    <Container>
-       <ButtonTest/>
-    </Container>
+       <BasicComponents/>
   );
 }
 
 const Container = styled.View`
   flex: 1;
-  background-color: green;
+  background-color: purple;
   color: white;
   align-items: center;
   justify-content: center;

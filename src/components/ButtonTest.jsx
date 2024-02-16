@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledText = styled.Text`
-  color: white;
+  color: black;
 `;
 
 const StyledButton = styled.Button`
