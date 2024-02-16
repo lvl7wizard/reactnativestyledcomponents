@@ -18,8 +18,9 @@ const BasicComponents = () => {
         height: 100,
         padding: 20,
     }}>
-    <View style={{backgroundColor: 'green', flex: 0.2}} />
-    <View style={{backgroundColor: 'orange', flex: 0.5}} />
+    <View style={{backgroundColor: 'red', flex: 0.4}} />
+    <View style={{backgroundColor: 'white', flex: 0.4}} />
+    <View style={{backgroundColor: 'blue', flex: 0.4}} />
     <Text>Hello World!</Text>
     </View>
     <View>
