@@ -13,7 +13,7 @@ margin: 100px;
 const ButtonTest = () => {
     return (<>
     <StyledText>Test</StyledText>
-    <StyledButton title="button1">Button</StyledButton>
+    <StyledButton title="Hello"/>
     </>
     )
 }

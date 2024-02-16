@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import BasicComponents from './src/components/BasicComponents';
+import { NavigationContainer } from '@react-navigation/native';
+import MyStack from './src/components/NavbarTest';
 
 export default function App() {
-  return (
-       <BasicComponents/>
-  );
+  return <MyStack />;
 }
 
 const Container = styled.View`
